@@ -1,0 +1,75 @@
+{
+  "collectionName": "components_text_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "pluginOptions": {
+        "translate": {
+          "translate": "copy"
+        }
+      }
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "alt_reg": {
+      "type": "text",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "reg": {
+      "type": "customField",
+      "options": {
+        "preset": "light",
+        "output": "HTML"
+      },
+      "customField": "plugin::ckeditor.CKEditor",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "eas": {
+      "type": "customField",
+      "options": {
+        "preset": "light",
+        "output": "HTML"
+      },
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "alt_eas": {
+      "type": "text",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    }
+  }
+}

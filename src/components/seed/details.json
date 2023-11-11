@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_seed_details",
+  "info": {
+    "displayName": "details",
+    "icon": "puzzle-piece",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "family": {
+      "type": "string",
+      "default": "false"
+    },
+    "variety": {
+      "type": "string"
+    },
+    "lifecycle": {
+      "type": "string"
+    },
+    "intercropping": {
+      "type": "string"
+    },
+    "breeding": {
+      "type": "string"
+    },
+    "distance": {
+      "type": "string"
+    },
+    "minimum": {
+      "type": "string"
+    },
+    "germinability": {
+      "type": "string"
+    },
+    "pollination": {
+      "type": "string"
+    },
+    "selection": {
+      "type": "string"
+    },
+    "usage": {
+      "type": "text"
+    }
+  }
+}

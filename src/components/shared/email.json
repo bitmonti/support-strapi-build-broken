@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_emails",
+  "info": {
+    "displayName": "email",
+    "icon": "envelope"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    }
+  }
+}

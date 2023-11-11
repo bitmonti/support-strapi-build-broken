@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_event_details",
+  "info": {
+    "displayName": "details",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "time",
+      "default": "09:00"
+    },
+    "end": {
+      "type": "time"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    }
+  }
+}

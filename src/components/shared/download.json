@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_downloads",
+  "info": {
+    "displayName": "download",
+    "icon": "download",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

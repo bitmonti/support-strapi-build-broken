@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_text_descriptions",
+  "info": {
+    "displayName": "description",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reg": {
+      "type": "customField",
+      "options": {
+        "preset": "light",
+        "output": "HTML"
+      },
+      "customField": "plugin::ckeditor.CKEditor",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "eas": {
+      "type": "customField",
+      "options": {
+        "preset": "light",
+        "output": "HTML"
+      },
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

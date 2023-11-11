@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "impressums",
+  "info": {
+    "singularName": "impressum",
+    "pluralName": "impressums",
+    "displayName": "Impressum",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "founding": {
+      "type": "date"
+    },
+    "number": {
+      "type": "string"
+    },
+    "judiciary": {
+      "type": "string"
+    },
+    "content_accountable": {
+      "type": "string"
+    },
+    "technical_accountable": {
+      "type": "string"
+    }
+  }
+}

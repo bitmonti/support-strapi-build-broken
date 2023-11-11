@@ -1,0 +1,29 @@
+{
+  "name": "thank-you-for-your-great-work",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This CMS is electric.",
+  "license": "MIT",
+  "author": {
+    "name": "bitmonti"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.10",
+    "@strapi/plugin-i18n": "4.15.4",
+    "@strapi/plugin-users-permissions": "4.15.4",
+    "@strapi/strapi": "4.15.4",
+    "better-sqlite3": "8.6.0",
+    "strapi-plugin-sitemap": "^3.0.3",
+    "strapi-plugin-translate": "^1.2.3",
+    "strapi-provider-translate-deepl": "^1.1.11"
+  },
+  "strapi": {
+    "uuid": "e80cf234-9edc-44c8-afbf-8e05dca82647"
+  }
+}

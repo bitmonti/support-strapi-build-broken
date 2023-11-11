@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_event_pricings",
+  "info": {
+    "displayName": "pricing",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "deadline": {
+      "type": "date"
+    },
+    "charge": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "supports",
+  "info": {
+    "singularName": "support",
+    "pluralName": "supports",
+    "displayName": "Bank",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "owner": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "iban_eur": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "iban_ron": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "cif": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "cui": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "swift": {
+      "type": "string",
+      "pluginOptions": {}
+    }
+  }
+}
